@@ -8,6 +8,12 @@
 - ~~Sort d'invocation de la force de la forêt~~
 - ~~Sort de restauration de la vie~~
 
+### Taches bonus
+- ~~ajout d'une classe Nécromencien~~
+- ~~Attaque coup de faucille~~
+- ~~Attaque prédiction du tour de mort de l'adversaire~~
+- ~~Attaque mort instantanée~~
+
 ## Sujet de validation
 
 ### Que vous faut-il?
