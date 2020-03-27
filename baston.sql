@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  ven. 27 mars 2020 à 13:43
+-- Généré le :  ven. 27 mars 2020 à 14:29
 -- Version du serveur :  5.7.24
 -- Version de PHP :  7.2.14
 
@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `characters` (
   `type` varchar(255) NOT NULL,
   `name` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `characters`
@@ -43,7 +43,8 @@ CREATE TABLE IF NOT EXISTS `characters` (
 INSERT INTO `characters` (`id`, `type`, `name`) VALUES
 (1, 'Warrior', 'Cloud'),
 (2, 'Mage', 'Elminster'),
-(3, 'Druid', 'Shiallia');
+(3, 'Druid', 'Shiallia'),
+(4, 'Necromancer', 'Velsharoon');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
